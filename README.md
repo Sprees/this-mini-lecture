@@ -1,7 +1,6 @@
-## This Overview
+## `This` Overview
 
 ### Keywords:
-- new: Wraps any function with an Object and sets `this` equal to newly created Object
 
 - Implicit: context object, also referred to as an owning or containing object
 
@@ -9,8 +8,7 @@
 
 - Default: standalone function invocation, this default binding to global scope or undefined
 
-- Lexical Scope: Referenced within the block of code in which it's defined
-
+- new: Wraps any function with an Object and sets `this` equal to newly created Object
 
 ## Reading Material/Sources
 - [JavaScript is Sexy](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
