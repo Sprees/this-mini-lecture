@@ -11,8 +11,9 @@
 - new: Wraps any function with an Object and sets `this` equal to newly created Object
 
 ### Reading Material/Sources
-- [JavaScript is Sexy](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
-- [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/README.md)
+- [JavaScript is Sexy - Richard Bovell](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
+- [You Don't Know JS - Kyle Simpson](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/README.md)
+- [What is Execution Context - David Shariff](http://davidshariff.com/blog/what-is-the-execution-context-in-javascript/)
 
 ### Useful Quotes  
   > Similar to pronouns in the English language; “John is running fast because he is trying to catch the train.”
@@ -23,4 +24,4 @@
 
 #### What is the `Execution Context`?
 
-- JavaScript code is run in a host environment, most frequently your Web browser, this host environment creates a <u>Root</u> Object
+- JavaScript code 
