@@ -1,6 +1,6 @@
-##This Overview
+## This Overview
 
-###Keywords:
+### Keywords:
 - new: Wraps any function with an Object and sets `this` equal to newly created Object
 
 - Implicit: context object, also referred to as an owning or containing object
@@ -12,11 +12,11 @@
 - Lexical Scope: Referenced within the block of code in which it's defined
 
 
-##Reading Material/Sources
+## Reading Material/Sources
 - [JavaScript is Sexy](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/README.md)
 
-##Useful Quotes  
+## Useful Quotes  
   > Similar to pronouns in the English language; “John is running fast because he is trying to catch the train.”
   
   > When a function executes, it gets the this property — a variable with the value of the object that invokes the function *where this is used.
