@@ -2,13 +2,13 @@
 
 ### Keywords:
 
-- Implicit: context object, also referred to as an owning or containing object
+- Implicit: Context object, also referred to as an owning or containing object.
 
 - Explicit: Explicitly set `this` with call, apply, bind, etc.
 
-- Default: standalone function invocation, this default binding to global scope or undefined
+- Default: Standalone function invocation, this default binding to global scope or `undefined`.
 
-- new: Wraps any function with an Object and sets `this` equal to newly created Object
+- `new`: Wraps any function with an Object and sets `this` equal to newly created Object.
 
 ### Reading Material/Sources
 - [JavaScript is Sexy - Richard Bovell](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
@@ -22,6 +22,13 @@
 
   > The `this` reference ALWAYS refers to (and holds the value of) an object — a singular object — and it is usually used inside a function or a method, although it can be used outside a function in the global scope.
 
-#### What is the `Execution Context`?
+#### What is the `Execution Context`? 
 
-- JavaScript code 
+- JavaScript code runs in a host environment where Javascript connects to the host's provided Object to interact.
+  - Global execution context:
+      The default execution environment in which JavaScript code is executed for the first time.
+  - Functional execution context: 
+      Whenever the execution enters a function body `func() { //function body }`.
+  - Eval execution context:
+      Whenever code is inside an `eval()` function.
+    
