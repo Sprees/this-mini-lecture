@@ -25,10 +25,17 @@
 #### What is the `Execution Context`? 
 
 - JavaScript code runs in a host environment where Javascript connects to the host's provided Object to interact.
+  
   - Global execution context:
       - The default execution environment in which JavaScript code is executed for the first time.
+  
   - Functional execution context: 
       - Whenever the execution enters a function body `func() { //function body }`.
+  
   - Eval execution context:
       - Whenever code is inside an `eval()` function.
+      
+-----
+|   |
+-----
     
