@@ -24,7 +24,7 @@
 
 #### What is the `Execution Context`? 
 
-- JavaScript code runs in a host environment where Javascript connects to the host's provided Object to interact.
+- JavaScript code runs in a host environment where Javascript connects to the host's provided Object to interact ( your browser's `window` Object ).
   
   - Global execution context:
       - The default execution environment in which JavaScript code is executed for the first time.
